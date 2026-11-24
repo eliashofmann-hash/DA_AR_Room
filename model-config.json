@@ -1,0 +1,471 @@
+{
+  "model": "Zimmer 201 mit Bad",
+  "alt": "Gestaltungsstudie Zimmer 201 mit Bad im Hotel National Bern.",
+  "overview": {
+    "label": "Übersicht",
+    "orbit": "225deg 55deg 100%",
+    "target": [
+      0,
+      0.03893497213721275,
+      0
+    ],
+    "fov": 38,
+    "web_framing": {
+      "desktop_radius": "80%",
+      "portrait_radius": "90%",
+      "landscape_radius": "95%"
+    },
+    "portrait_theta": "225deg"
+  },
+  "views": {
+    "zimmer": {
+      "label": "Zimmer",
+      "eye": [
+        0.02406090311706066,
+        0.07915976643562317,
+        -0.0648992583155632
+      ],
+      "target": [
+        -0.015245439484715462,
+        0.064975306391716,
+        -0.02918175980448723
+      ],
+      "theta_deg": 132.26128403775334,
+      "phi_deg": 75.04677739949003,
+      "radius_m": 0.054972060985316165,
+      "fov": 64,
+      "portrait_fov": 64,
+      "min_radius_m": 0.05167373632719622,
+      "max_radius_m": 0.057170942809958984,
+      "azimuth_limit_deg": 12,
+      "polar_limit_deg": 5,
+      "source_eye_m": [
+        -0.65,
+        3.44,
+        1.65
+      ],
+      "source_look_m": [
+        -2.95,
+        1.35,
+        0.82
+      ],
+      "fixed_eye": true
+    },
+    "bad": {
+      "label": "Bad",
+      "eye": [
+        0.0636407807469368,
+        0.07696088403463364,
+        0.05911770462989807
+      ],
+      "target": [
+        0.09852416813373566,
+        0.05428668111562729,
+        0.02318781614303589
+      ],
+      "theta_deg": -44.1533259761385,
+      "phi_deg": 65.64004921452225,
+      "radius_m": 0.054972060985316165,
+      "fov": 76,
+      "portrait_fov": 70,
+      "min_radius_m": 0.053872621994150466,
+      "max_radius_m": 0.056071503818793285,
+      "azimuth_limit_deg": 22,
+      "polar_limit_deg": 10,
+      "source_eye_m": [
+        0.25,
+        0.62,
+        1.6
+      ],
+      "source_look_m": [
+        1.25,
+        1.65,
+        0.95
+      ],
+      "fixed_eye": true,
+      "environment": "./assets/bad-licht.hdr",
+      "exposure": 1,
+      "standpoint": "Freier linker Duschzugang; Blick zu WC, Zugang und Waschtisch, begrenzter Kopfblick ohne Ortswechsel."
+    },
+    "bett": {
+      "label": "Vom Bett",
+      "eye": [
+        -0.06675294041633606,
+        0.05497206002473831,
+        0.04460509121417999
+      ],
+      "target": [
+        -0.07807089388370514,
+        0.07144803553819656,
+        -0.006604023277759552
+      ],
+      "theta_deg": 12.462846238490952,
+      "phi_deg": 107.44051339872458,
+      "radius_m": 0.054972060985316165,
+      "fov": 58,
+      "portrait_fov": 60,
+      "min_radius_m": 0.053872621994150466,
+      "max_radius_m": 0.056071503818793285,
+      "azimuth_limit_deg": 15,
+      "polar_limit_deg": 8,
+      "source_eye_m": [
+        -2.715,
+        0.95,
+        1.1
+      ],
+      "source_look_m": [
+        -3.325,
+        3.71,
+        1.988
+      ],
+      "fixed_eye": true
+    },
+    "gang": {
+      "label": "Gang",
+      "eye": [
+        0.3472966141998768,
+        0.10114859091117978,
+        0.0028263255953788757
+      ],
+      "target": [
+        0.1599518336355686,
+        0.07476200209930539,
+        0.0028263255953788757
+      ],
+      "theta_deg": 90.0,
+      "phi_deg": 81.98290692634467,
+      "radius_m": 0.18919386584616243,
+      "min_radius_m": 0.15513896999385318,
+      "max_radius_m": 0.23649233230770306,
+      "fov": 45,
+      "portrait_fov": 90,
+      "azimuth_limit_deg": 10,
+      "polar_limit_deg": 9,
+      "fixed_eye": true
+    }
+  },
+  "ceiling_materials": [
+    "CUT_decke__V11_B201_01_Decke_Indirekt_Nur_Plan_Ausblendbar__0",
+    "CUT_decke__V11_B201_01_Decke_Indirekt_Nur_Plan_Ausblendbar__1",
+    "CUT_decke__V11_B201_01_Decke_Indirekt_Nur_Plan_Ausblendbar__2",
+    "CUT_decke__V20_Zimmer_Decke_Warmweiss"
+  ],
+  "interior_variant": false,
+  "environment": "./assets/zimmer-licht.hdr",
+  "exposure": 1.0,
+  "poster": null,
+  "source_status": "V22_UNCHANGED_BYTES_VERIFIED_IN_V23",
+  "nominal_width_m": 0.35,
+  "prior_static_manifest_sha256": "359ba225e600e4ba4b43ec4cbb7f52ec904d182b5f6d56d0ef5a36e64df4ca51",
+  "browser_model": "models/web-komplett.glb?v=195a3f8ec5c1c406",
+  "ar_model": "./models/modell.glb?v=4a32ae87761697f1",
+  "cutaway": {
+    "groups": [
+      {
+        "id": "nord",
+        "label": "Zimmerwand mit TV, N-Bild und zugehörigen Profilen",
+        "point": [
+          0.052646372467279434,
+          0.0813586488366127,
+          -0.09271366149187088
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "materials": [
+          "CUT_nord__V11_01_Room210_Architecture__1",
+          "CUT_nord__V11_01_Room210_Architecture__1.001",
+          "CUT_nord__V11_01_Room210_Architecture__4",
+          "CUT_nord__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__3",
+          "CUT_nord__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__3.001",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__10",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__14",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__16",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__17",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__17.001",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__3",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__3.002",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__6",
+          "CUT_nord__V11_V08_Originalanschluss_Geometrie__9",
+          "CUT_nord__V11_V10_Aussenecken_Geschlossen__1",
+          "CUT_nord__V11_V10_Aussenecken_Geschlossen__1.001",
+          "CUT_nord__V11_V10_Aussenecken_Geschlossen__4",
+          "CUT_nord__V11_V10_Aussenecken_Geschlossen__5",
+          "CUT_nord__V11_V10_Aussenecken_Geschlossen__5.001",
+          "CUT_nord__V11_V2_01_Panels_silk_and_mouldings__2",
+          "CUT_nord__V11_V2_01_Panels_silk_and_mouldings__2.001",
+          "CUT_nord__V11_V2_09_Print_and_woven_rug__0",
+          "CUT_nord__V11_V2_09_Print_and_woven_rug__1",
+          "CUT_nord__V11_V2_09_Print_and_woven_rug__2",
+          "CUT_nord__V11_V2_09_Print_and_woven_rug__3",
+          "CUT_nord__V11_V5_Flatscreen_Electrical_and_elegant_headboard__0",
+          "CUT_nord__V11_V5_Flatscreen_Electrical_and_elegant_headboard__1",
+          "CUT_nord__V11_V5_Flatscreen_Electrical_and_elegant_headboard__2",
+          "CUT_nord__V11_V5_Flatscreen_Electrical_and_elegant_headboard__3",
+          "CUT_nord__V11_V5_Flatscreen_Electrical_and_elegant_headboard__4",
+          "CUT_nord__V12_Aussen_Warmneutral_Mineralisch",
+          "CUT_nord__V12_Aussen_Warmneutral_Mineralisch.002",
+          "CUT_nord__V12_Aussen_Warmneutral_Mineralisch__uv_285",
+          "CUT_nord__V12_Halterung_Graphit_Stahl",
+          "CUT_nord__V12_Kabel_Matt_Schwarz",
+          "CUT_nord__V14_Fussleiste_Original_Ivory",
+          "CUT_nord__V14_Fussleiste_Original_Ivory.001",
+          "CUT_nord__V14_TV_Wand_Originalputz_Durchgehend",
+          "CUT_nord__V14_TV_Wand_Originalputz_Durchgehend__uv_261",
+          "CUT_nord__V20_TV_N_Wand_Heller_Mineralputz_PBR_0"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "sued",
+        "label": "Bettwand mit originalem Täfer, Seidenstreifen und Steckdosen",
+        "point": [
+          -0.05729774758219719,
+          0.0813586488366127,
+          0.09196901321411133
+        ],
+        "outward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "materials": [
+          "CUT_sued__V11_01_Room210_Architecture__0.001",
+          "CUT_sued__V11_01_Room210_Architecture__0.002",
+          "CUT_sued__V11_01_Room210_Architecture__0.002__uv_370",
+          "CUT_sued__V11_01_Room210_Architecture__0.002__uv_389",
+          "CUT_sued__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__0",
+          "CUT_sued__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__0.001",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__0",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__1",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__10",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__11",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__12",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__13",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__14",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__15",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__3",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__4",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__5",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__6",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__7",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__8",
+          "CUT_sued__V11_ASSET_B201_03_Gruene_Wandkeramik__9",
+          "CUT_sued__V11_V08_Originalanschluss_Geometrie__17",
+          "CUT_sued__V11_V08_Originalanschluss_Geometrie__17.001",
+          "CUT_sued__V11_V10_Aussenecken_Geschlossen__0",
+          "CUT_sued__V11_V10_Aussenecken_Geschlossen__0.001",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__0",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__1",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__2",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__2.001",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__3",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__4",
+          "CUT_sued__V11_V2_01_Panels_silk_and_mouldings__5",
+          "CUT_sued__V11_V2_11_Functional_lights_radiator_and_sockets__0",
+          "CUT_sued__V11_V2_11_Functional_lights_radiator_and_sockets__1",
+          "CUT_sued__V11_V2_11_Functional_lights_radiator_and_sockets__4",
+          "CUT_sued__V11_V2_11_Functional_lights_radiator_and_sockets__5",
+          "CUT_sued__V11_V6_Two_recessed_bedside_electrical_units__0",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__0",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__1",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__2",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__3",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__4",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__5",
+          "CUT_sued__V11_V7_Manifold_recessed_power_units__6",
+          "CUT_sued__V12_Aussen_Warmneutral_Mineralisch",
+          "CUT_sued__V12_Aussen_Warmneutral_Mineralisch.002",
+          "CUT_sued__V12_Aussen_Warmneutral_Mineralisch.004",
+          "CUT_sued__V12_Aussen_Warmneutral_Mineralisch__uv_324",
+          "CUT_sued__V18_Seidenpapier_Alter_Ausschnitt_Unmerklich",
+          "CUT_sued__V18_Wandkern_Schnitt_Bettwand_Ost"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "gang",
+        "label": "Eingangswand mit Tür201, Gangdetails und Bad-Wandanbauten",
+        "point": [
+          0.16029779613018036,
+          0.0813586488366127,
+          -0.0015714392066001892
+        ],
+        "outward": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "materials": [
+          "CUT_gang__CUT_nord__V12_Aussen_Warmneutral_Mineralisch",
+          "CUT_gang__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__0.001",
+          "CUT_gang__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__1",
+          "CUT_gang__V11_ASSET_B201_01_Raumkopie_Tuer_Deckenprofil__1.002",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__0",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__1",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__10",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__11",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__12",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__13",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__14",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__15",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__3",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__4",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__5",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__6",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__7",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__8",
+          "CUT_gang__V11_ASSET_B201_03_Gruene_Wandkeramik__9",
+          "CUT_gang__V11_ASSET_B201_06_Profilierter_Holzspiegel__0",
+          "CUT_gang__V11_ASSET_B201_06_Profilierter_Holzspiegel__1",
+          "CUT_gang__V11_ASSET_B201_06_Profilierter_Holzspiegel__2",
+          "CUT_gang__V11_ASSET_B201_07_Opal_Wandleuchte__0",
+          "CUT_gang__V11_ASSET_B201_07_Opal_Wandleuchte__1",
+          "CUT_gang__V11_ASSET_B201_07_Opal_Wandleuchte__2",
+          "CUT_gang__V11_ASSET_B201_09_Duschset_Linke_Wand__0",
+          "CUT_gang__V11_ASSET_B201_09_Duschset_Linke_Wand__1",
+          "CUT_gang__V11_ASSET_B201_09_Duschset_Linke_Wand__2",
+          "CUT_gang__V11_ASSET_B201_09_Duschset_Linke_Wand__3",
+          "CUT_gang__V11_ASSET_B201_13_Keramik_Spiegelablage__0",
+          "CUT_gang__V11_ASSET_B201_13_Keramik_Spiegelablage__1",
+          "CUT_gang__V11_ASSET_V4_14_Steinzeug_Flasche__0",
+          "CUT_gang__V11_ASSET_V4_14_Steinzeug_Flasche__1",
+          "CUT_gang__V11_ASSET_V4_15_Silberpumpe__0",
+          "CUT_gang__V11_ASSET_V4_15_Silberpumpe__1",
+          "CUT_gang__V11_ASSET_V4_15_Silberpumpe__2",
+          "CUT_gang__V11_ASSET_V4_16_Spulenbecher_Honig_Stein__0",
+          "CUT_gang__V11_ASSET_V4_17_Spulenbecher_Stein_Olivgrau__0",
+          "CUT_gang__V11_ASSET_V4_18_Satzschiff_Edelstahl__0",
+          "CUT_gang__V11_ASSET_V4_19_Duschspender_PET_Halter__0",
+          "CUT_gang__V11_ASSET_V4_19_Duschspender_PET_Halter__1",
+          "CUT_gang__V11_ASSET_V4_19_Duschspender_PET_Halter__2",
+          "CUT_gang__V11_ASSET_V4_19_Duschspender_PET_Halter__3",
+          "CUT_gang__V11_ASSET_V4_19_Duschspender_PET_Halter__4",
+          "CUT_gang__V11_B201_07_Opalleuchte_Zweite_Identische_Bauform__0",
+          "CUT_gang__V11_B201_07_Opalleuchte_Zweite_Identische_Bauform__1",
+          "CUT_gang__V11_B201_07_Opalleuchte_Zweite_Identische_Bauform__2",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__14",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__17",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__17.001",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__3",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__3.002",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__5",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__7",
+          "CUT_gang__V11_V08_Originalanschluss_Geometrie__8",
+          "CUT_gang__V11_V10_Aussenecken_Geschlossen__5.001",
+          "CUT_gang__V12_Aussen_Warmneutral_Mineralisch",
+          "CUT_gang__V12_Aussen_Warmneutral_Mineralisch.002",
+          "CUT_gang__V14_Fussleiste_Original_Ivory",
+          "CUT_gang__V14_Fussleiste_Original_Ivory.001",
+          "CUT_gang__V14_PublicPBR_10_G01_Schild_Dunkel",
+          "CUT_gang__V14_PublicPBR_11_V06_Treppentaefer_Oliv_Flaeche.001",
+          "CUT_gang__V14_PublicPBR_12_TR_Kalkstein_ruhig_Beige_Greige.002",
+          "CUT_gang__V14_PublicPBR_13_V06_Treppentaefer_Holzkappe_Y.001",
+          "CUT_gang__V14_PublicPBR_14_G02_Mineralfarbe_Gleichmaessig_Sehrmatt",
+          "CUT_gang__V14_PublicPBR_16_G01_Leuchtenglas_Klar",
+          "CUT_gang__V14_PublicPBR_17_G01_Opal_Kern",
+          "CUT_gang__V14_PublicPBR_2_G01_Tuerdichtung_Dunkel",
+          "CUT_gang__V14_PublicPBR_3_G01_Messing_Satiniert",
+          "CUT_gang__V14_PublicPBR_4_SALTO_PM_Satiniertes_Messing",
+          "CUT_gang__V14_PublicPBR_5_SALTO_LED_Ring_Ruhezustand",
+          "CUT_gang__V14_PublicPBR_6_SALTO_Leser_Schwarz_Satiniert",
+          "CUT_gang__V14_PublicPBR_7_G03_NA1505_Messing_Sanft_Satiniert",
+          "CUT_gang__V14_PublicPBR_9_G01_Schild_Dunkel.002",
+          "CUT_gang__V14_TV_Wand_Originalputz_Durchgehend",
+          "CUT_gang__V15_Astro_Diffusor_2700K",
+          "CUT_gang__V15_Gangwand_Originaler_Mineralputz_Durchgehend",
+          "CUT_gang__V15_Innenputz_Zargenfuellung_Originalgreige",
+          "CUT_gang__V15_TM_1933_Originalpapier_Unveraendert",
+          "CUT_gang__V15_TM_Glas_2mm",
+          "CUT_gang__V15_TM_Passepartout_E9E0CE",
+          "CUT_gang__V15_TM_Rahmen_Bronze_7C694A",
+          "CUT_gang__V15_TM_Rueckwand",
+          "CUT_gang__V18_Eiche_Neue_Fuenffuellung_Art613",
+          "CUT_gang__V18_Karten_Dunkelgruen.001",
+          "CUT_gang__V18_Karten_Elfenbein",
+          "CUT_gang__V18_Karten_Elfenbein.001",
+          "CUT_gang__V18_Karten_Halter_Messing.001",
+          "CUT_gang__V18_Karten_Weinrot.001",
+          "CUT_gang__V18_Modellskizze_2OG_Originalplan",
+          "CUT_gang__V18_Planschutz_Rahmen_Messing",
+          "CUT_gang__V18_Wandkern_Schnitt_Gang_Nord",
+          "CUT_gang__V18_Wandkern_Schnitt_Gang_Sued"
+        ],
+        "static_hidden": false,
+        "retain_until_zoom": {
+          "hide_below_ratio": 0.72,
+          "restore_above_ratio": 0.8
+        }
+      },
+      {
+        "id": "fenster",
+        "label": "Ursprüngliche schräge Fensterwand mit Fenster und Vorhängen",
+        "point": [
+          -0.1407337188720703,
+          0.0780603438615799,
+          -0.061234958469867706
+        ],
+        "outward": [
+          -0.9799079895019531,
+          0.0,
+          -0.19944989681243896
+        ],
+        "materials": [
+          "CUT_fenster__V11_01_Room210_Architecture__0",
+          "CUT_fenster__V11_01_Room210_Architecture__0.001",
+          "CUT_fenster__V11_01_Room210_Architecture__4",
+          "CUT_fenster__V11_01_Room210_Architecture__4.001",
+          "CUT_fenster__V11_V08_Originalanschluss_Geometrie__17",
+          "CUT_fenster__V11_V08_Originalanschluss_Geometrie__17.001",
+          "CUT_fenster__V11_V2_01_Panels_silk_and_mouldings__2",
+          "CUT_fenster__V11_V2_01_Panels_silk_and_mouldings__2.001",
+          "CUT_fenster__V11_V2_05_Window_arch_and_glazing__0",
+          "CUT_fenster__V11_V2_05_Window_arch_and_glazing__1",
+          "CUT_fenster__V11_V2_05_Window_arch_and_glazing__2",
+          "CUT_fenster__V11_V2_05_Window_arch_and_glazing__3",
+          "CUT_fenster__V11_V2_05_Window_arch_and_glazing__4",
+          "CUT_fenster__V11_V2_06_Soft_curtains_and_borders__0",
+          "CUT_fenster__V11_V2_06_Soft_curtains_and_borders__1",
+          "CUT_fenster__V11_V2_06_Soft_curtains_and_borders__2",
+          "CUT_fenster__V11_V2_06_Soft_curtains_and_borders__3",
+          "CUT_fenster__V11_V2_06_Soft_curtains_and_borders__4",
+          "CUT_fenster__V11_V2_11_Functional_lights_radiator_and_sockets__0",
+          "CUT_fenster__V11_V2_11_Functional_lights_radiator_and_sockets__6",
+          "CUT_fenster__V12_Aussen_Warmneutral_Mineralisch",
+          "CUT_fenster__V12_Aussen_Warmneutral_Mineralisch.002",
+          "CUT_fenster__V12_Aussen_Warmneutral_Mineralisch__uv_21",
+          "CUT_fenster__V18_Wandkern_Schnitt_Fenster_Nord",
+          "CUT_fenster__V18_Wandkern_Schnitt_Fenster_Sued"
+        ],
+        "static_hidden": false
+      },
+      {
+        "id": "decke",
+        "label": "Originaldecken – für die offene Betrachtung separat",
+        "point": [
+          0.052646372467279434,
+          0.1495240032672882,
+          -0.0015714392066001892
+        ],
+        "outward": [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        "materials": [
+          "CUT_decke__V11_B201_01_Decke_Indirekt_Nur_Plan_Ausblendbar__0",
+          "CUT_decke__V11_B201_01_Decke_Indirekt_Nur_Plan_Ausblendbar__1",
+          "CUT_decke__V11_B201_01_Decke_Indirekt_Nur_Plan_Ausblendbar__2",
+          "CUT_decke__V20_Zimmer_Decke_Warmweiss"
+        ],
+        "static_hidden": false
+      }
+    ],
+    "hysteresis_m": 0.002,
+    "overview_only": true
+  },
+  "ar_source_status": "V22_UNCHANGED_EXPORT_FILE_HASHES_VERIFIED_PHONE_TEST_PENDING",
+  "ar_ios_model": "./models/modell.usdz?v=7e6c080a27fa8012"
+}

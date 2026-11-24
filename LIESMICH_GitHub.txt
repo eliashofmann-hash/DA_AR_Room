@@ -1,0 +1,34 @@
+Hotel National Bern – Zimmer 201 mit Bad
+GitHub-Pages-Paket V23 · 24.11.2026
+
+Dieses Paket ist eine eigenständige statische Webseite für genau ein Modell.
+HTML, JavaScript, Schrift, Decoder, Beleuchtung, Browsermodell und AR-Dateien sind enthalten.
+
+VERÖFFENTLICHEN
+1. ZIP-Datei vollständig entpacken.
+2. Den gesamten entpackten Inhalt in ein eigenes GitHub-Repository übernehmen.
+   index.html und die versteckte Datei .nojekyll müssen direkt im Repository-Stamm liegen.
+   Nicht die ZIP-Datei oder einen zusätzlichen übergeordneten Ordner hochladen.
+3. Mit GitHub Desktop oder Git committen und pushen. Die Modelldateien überschreiten
+   die 25-MiB-Grenze des Browseruploads, liegen aber einzeln unter 100 MiB.
+4. Repository → Settings → Pages → Build and deployment:
+   Source: Deploy from a branch. Branch: main (bzw. die verwendete Branch). Ordner: /(root).
+5. Save wählen und nach der Bereitstellung die von GitHub angezeigte HTTPS-Adresse öffnen.
+   Ein eigener Build ist nicht nötig; .nojekyll ist bereits enthalten.
+
+ANSICHT UND AR
+Die Browseransicht blendet die dem Blick zugewandten Wände automatisch aus.
+Die AR-Ansicht nutzt eine separate, statische offene Modellfassung.
+Auf einem unterstützten Smartphone die veröffentlichte HTTPS-Seite öffnen und
+„Auf dem Tisch ansehen“ wählen. Ein physischer Telefon-AR-Test steht noch aus.
+Lokal die Seite über einen HTTP-Server bedienen; index.html nicht direkt doppelklicken.
+
+STAND
+Zimmer: zuletzt geprüftes Arbeitsmodell aus V22, in V23 unverändert übernommen.
+Modell-, Webseiten- und AR-Dateien stimmen mit der lokal geprüften Lieferung überein.
+Dieses Paket wurde vorbereitet und geprüft. Es wurde noch kein GitHub-Repository
+erstellt und keine neue Webseite veröffentlicht.
+
+GitHub-Dokumentation:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
